@@ -40,13 +40,13 @@ function SocialLinks() {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "jaykanani898@gmail.com",
+      href: "mailto:jaykanani898@gmail.com",
       style: "rounded-br-md",
     },
   ];
 
   return (
-    <div className="lg:flex flex-col top-[35%] left-0 fixed hidden">
+    <div className="lg:flex flex-col top-[35%] left-0 fixed hidden ">
       <ul>
         {links.map(({ id, child, href, style }) => (
           <li

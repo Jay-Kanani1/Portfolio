@@ -1,23 +1,25 @@
 import React from "react";
 import newsApp from "../assets/NewsApp.png";
+import weatherApp from "../assets/WeatherApp.png";
+import textUtils from "../assets/TextUtils.png";
 
 function Project() {
   const projects = [
     {
       id: 1,
       src: newsApp,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
+      demo: "",
+      code: "https://github.com/Jay-Kanani1/Dailly-News",
     },
     {
       id: 2,
-      src: newsApp,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
+      src: weatherApp,
+      demo: "https://my-weatherapp.vercel.app/",
+      code: "https://github.com/Jay-Kanani1/Weather-App",
     },
     {
       id: 3,
-      src: newsApp,
+      src: textUtils,
       demo: "https://text-utils-one-beta.vercel.app/",
       code: "https://github.com/Jay-Kanani1/Text-Utils",
     },
@@ -62,7 +64,7 @@ function Project() {
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg duration-300 hover:scale-105"
             >
-              <img src={newsApp} alt="" className="rounded-lg" />
+              <img src={src} alt="" className="rounded-lg" />
               <div className="flex items-center justify-center">
                 <a href={demo} target="_blank" rel="noreferrer" className="one">
                   <button className="w-1/2 px-6 py-3 m-4   duration-500 hover:underline hover:underline-offset-8 hover:text-[#54b3d6] hover:decoration-4">

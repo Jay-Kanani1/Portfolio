@@ -11,7 +11,7 @@ function Home() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Hi, My name is Jay Kanani and I am a passionate Full-Stack Web developer",
+        "Hi, My name is Jay Kanani and I am a passionate Full-Stack developer",
       ],
       typeSpeed: 50,
     });
