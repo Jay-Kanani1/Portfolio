@@ -2,6 +2,7 @@ import React from "react";
 import newsApp from "../assets/NewsApp.png";
 import weatherApp from "../assets/WeatherApp.png";
 import textUtils from "../assets/TextUtils.png";
+import movix from "../assets/movix.png";
 
 function Project() {
   const projects = [
@@ -19,13 +20,13 @@ function Project() {
     },
     {
       id: 3,
-      src: textUtils,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
+      src: movix,
+      demo: "https://moviex-world.vercel.app/",
+      code: "https://github.com/Jay-Kanani1/Movie-App",
     },
     {
       id: 4,
-      src: newsApp,
+      src: textUtils,
       demo: "https://text-utils-one-beta.vercel.app/",
       code: "https://github.com/Jay-Kanani1/Text-Utils",
     },

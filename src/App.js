@@ -10,6 +10,7 @@ import Skill from './components/Skill';
 import SocialLinks from './components/SocialLinks';
 
 function App() {
+
   return (
     <div>
       <Navbar />

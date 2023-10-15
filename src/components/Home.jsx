@@ -1,6 +1,8 @@
 import React from "react";
 // import MdOutlineKeyboardArrowRight from FaReact
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { motion } from "framer-motion";
+import fadeIn from "../Varient";
 import resume from "../assets/Resume.pdf";
 import Typed from "typed.js";
 import bg from "../assets/home-bg.png";
@@ -11,7 +13,7 @@ function Home() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Hi, My name is Jay Kanani and I am a passionate Full-Stack developer",
+        "Hi, My name is Jay Kanani and I am a passionate Front-End developer",
       ],
       typeSpeed: 50,
     });
@@ -28,17 +30,29 @@ function Home() {
     >
       <div className="max-w-screen-lg mx-auto flex-col items-center h-full px-4  grid md:grid-cols-3  justify-center">
         <div className="flex flex-col justify-center h-full col-span-2">
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#54b3d6]">
+          <motion.h2
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="text-4xl sm:text-5xl font-bold text-[#54b3d6]"
+          >
             <span ref={el} />
-          </h2>
-          <p className="text-gray-400 my-5 font-medium md:text-lg">
+          </motion.h2>
+          <motion.p
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="text-gray-400 my-5 font-medium md:text-lg"
+          >
             I really enjoy to creating and deploying responsive and dynamic web
             applications. Able to develop end-to-end solutions that combine
             clear user interfaces with powerful server-side functionality.
             Fluent in both front-end and back-end technologies.kept up of new
             web development trends while implementing best practices to provide
             cutting-edge and creative solutions.
-          </p>
+          </motion.p>
 
           <div>
             <button className="text-white  px-6 py-3 my-2 mx-auto flex item-center rounded-md bg-gradient-to-r from-[#54b3d6] to-blue-500 cursor-pointer hover:scale-110 duration-300">
@@ -54,13 +68,19 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="justify-center items-center">
+        <motion.div
+          variants={fadeIn("left", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="justify-center items-center"
+        >
           <img
             className="w-[70%]  mx-auto my-4 rounded-xl hidden md:flex"
             src={bg}
             alt="bg"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
