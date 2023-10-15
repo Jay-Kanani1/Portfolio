@@ -51,7 +51,7 @@ function Home() {
             clear user interfaces with powerful server-side functionality.
             Fluent in both front-end and back-end technologies.kept up of new
             web development trends while implementing best practices to provide
-            cutting-edge and creative solution.
+            cutting-edge and creative solutions.
           </motion.p>
 
           <div>
