@@ -3,7 +3,7 @@ import golfClub from "../assets/golf-club.png";
 import weatherApp from "../assets/WeatherApp.png";
 import duoStudio from "../assets/duo-studio.png";
 import movix from "../assets/movix.png";
-
+import newsApp from "../assets/NewsApp.png";
 function Project() {
   const projects = [
     {
