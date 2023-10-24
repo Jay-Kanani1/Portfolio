@@ -9,8 +9,8 @@ function Project() {
     {
       id: 1,
       src: golfClub,
-      demo: "https://github.com/Jay-Kanani1/Golf-Club",
-      code: "https://golf-club-chi.vercel.app/",
+      demo: "https://golf-club-chi.vercel.app/",
+      code: "https://github.com/Jay-Kanani1/Golf-Club",
     },
     {
       id: 2,
