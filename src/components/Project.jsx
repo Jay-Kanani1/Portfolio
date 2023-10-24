@@ -1,35 +1,36 @@
 import React from "react";
-import newsApp from "../assets/NewsApp.png";
+import golfClub from "../assets/golf-club.png";
 import weatherApp from "../assets/WeatherApp.png";
-import textUtils from "../assets/TextUtils.png";
+import duoStudio from "../assets/duo-studio.png";
 import movix from "../assets/movix.png";
 
 function Project() {
   const projects = [
     {
       id: 1,
-      src: newsApp,
-      demo: "",
-      code: "https://github.com/Jay-Kanani1/Dailly-News",
+      src: golfClub,
+      demo: "https://github.com/Jay-Kanani1/Golf-Club",
+      code: "https://golf-club-chi.vercel.app/",
     },
     {
       id: 2,
-      src: weatherApp,
-      demo: "https://my-weatherapp.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Weather-App",
-    },
-    {
-      id: 3,
       src: movix,
       demo: "https://moviex-world.vercel.app/",
       code: "https://github.com/Jay-Kanani1/Movie-App",
     },
     {
-      id: 4,
-      src: textUtils,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
+      id: 3,
+      src: duoStudio,
+      demo: "https://duo-studio-mu.vercel.app/",
+      code: "https://github.com/Jay-Kanani1/Duo-Studio",
     },
+    {
+      id: 4,
+      src: weatherApp,
+      demo: "https://my-weatherapp.vercel.app/",
+      code: "https://github.com/Jay-Kanani1/Weather-App",
+    },
+
     {
       id: 5,
       src: newsApp,
