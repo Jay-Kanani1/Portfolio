@@ -3,7 +3,7 @@ import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { motion } from "framer-motion";
 import fadeIn from "../Varient";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/JAY_RESUME.pdf";
 import Typed from "typed.js";
 import bg from "../assets/home-bg.png";
 

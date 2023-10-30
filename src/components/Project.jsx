@@ -3,7 +3,7 @@ import golfClub from "../assets/golf-club.png";
 import weatherApp from "../assets/WeatherApp.png";
 import duoStudio from "../assets/duo-studio.png";
 import movix from "../assets/movix.png";
-import newsApp from "../assets/NewsApp.png";
+// import newsApp from "../assets/NewsApp.png";
 function Project() {
   const projects = [
     {
@@ -31,18 +31,18 @@ function Project() {
       code: "https://github.com/Jay-Kanani1/Weather-App",
     },
 
-    {
-      id: 5,
-      src: newsApp,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
-    },
-    {
-      id: 6,
-      src: newsApp,
-      demo: "https://text-utils-one-beta.vercel.app/",
-      code: "https://github.com/Jay-Kanani1/Text-Utils",
-    },
+    // {
+    //   id: 5,
+    //   src: newsApp,
+    //   demo: "https://text-utils-one-beta.vercel.app/",
+    //   code: "https://github.com/Jay-Kanani1/Text-Utils",
+    // },
+    // {
+    //   id: 6,
+    //   src: newsApp,
+    //   demo: "https://text-utils-one-beta.vercel.app/",
+    //   code: "https://github.com/Jay-Kanani1/Text-Utils",
+    // },
   ];
 
   return (
@@ -60,7 +60,8 @@ function Project() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"> */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12 px-12 sm:px-0">
           {projects.map(({ id, src, demo, code }) => (
             <div
               key={id}
